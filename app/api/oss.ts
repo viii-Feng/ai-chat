@@ -1,7 +1,7 @@
 import Stream from "stream";
 import { nanoid } from "nanoid";
 import { ClientOptions } from "minio";
-import { getConfig } from "@/app/api/util";
+import { getConfig } from "./util";
 
 const BASE_URL =
   process.env.DISCORDCDN_PROXY_URL ?? "https://cdn.discordapp.com";
